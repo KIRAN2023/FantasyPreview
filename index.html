@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+	<header>
+		<nav>
+	      <div class="head clearfix">
+	       	  <img src="fap.png" class="logo">
+
+	       <ul class="menu" id="mobileview" style="word-spacing: 4em;padding: 20px;">
+	      <a href="https://fantasypreview.in/" target="_blank"><li>Home</li></a>
+	      <a href="https://fantasypreview.in/" target="_blank"><li>Previews</li></a>
+	      <a href="https://fantasypreview.in/join-premium/"target="_blank"><li>Premium</li></a>
+	      <a href="https://fantasypreview.in/contact-us/" target="_blank"><li>Contact</li></a>
+	      <a href="https://fantasypreview.in/dream11-grand-league-winnings/" target="_blank"><li>Winnings</li></a>
+	       </ul>
+	       <a href="#" class="bar" onclick="slideshow()"><i class="fa fa-bars"></i>
+	       </a>
+	      </div>
+        </nav>
+       
+       <div class="secdiv">
+       <h1>Welcome to <span class="blink">Fantasy Preview</span><br>World of  fantasy lovers </h1>
+        
+        <a href="https://fantasypreview.in/join-premium/" target="_blank" class="btn btn1">Joinpremium</a>  
+
+        <a href="https://fantasypreview.in/premium/" target="_blank" class="btn btn3">Trail</a>  
+       </div>
+   </header>
+
+   <script type="text/javascript">
+   	function slideshow(){
+   	  var x=document.getElementById("mobileview");
+
+   	  if(x.style.display==="none"){
+   	  	  x.style.display="block";
+   	  }else{
+   	  	x.style.display="none";
+   	  }
+   	}  
+   </script>   
+
+</body>
+</html>
